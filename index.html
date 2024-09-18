@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="horse-button" class="mini-button">🐴</button>
+
+<div id="horse-modal" class="modal" style="display: none;">
+<audio id="horse-audio">
+    <source src="incorrecto.MP3" type="audio/mpeg">
+    a
+</audio>
+
+    <div class="modal-content">
+        <span id="close-modal" class="close-button">&times;</span>
+        <img src="c.webp" alt="Caballo Grande" class="horse-image">
+        <p>CABALOOOOOOOOOOO AJAJAJAJKJKJAKJKAJKAKJAJKJSKKJAJKAKJDSAJ NO SABE HABLAT</p>
+    </div>
+</div>
+
+    <div id="start-container">
+        <button id="start-button">FELIZ ANIVERSARIO AMOOOOOOOOOOR</button>
+    </div>
+
+    <div id="menu" style="display: none;">
+        <div class="button-container">
+            <button class="menu-button" onclick="showMessage(1)">1</button>
+            <button class="menu-button" onclick="showMessage(2)">2</button>
+            <button class="menu-button" onclick="showMessage(3)">3</button>
+            <button class="menu-button" onclick="showMessage(4)">4</button>
+        </div>
+    </div>
+    <div id="message" class="card" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
